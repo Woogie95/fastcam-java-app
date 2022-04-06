@@ -1,4 +1,4 @@
-package chapter03;
+package java.programming.lecture;
 
 public class SortTest {
     public static void main(String[] args) {

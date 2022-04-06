@@ -1,4 +1,4 @@
-package chapter03;
+package java.programming.lecture;
 
 public class Exam2 {
     public static void main(String[] args) {
