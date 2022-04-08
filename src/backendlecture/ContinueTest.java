@@ -3,7 +3,7 @@ package backendlecture;
 public class ContinueTest {
     public static void main(String[] args) {
 
-        int num = 0;
+        int num;
 
         for (int i = 1; i <= 100; i++) {
             num = i;
