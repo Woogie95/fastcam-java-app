@@ -10,5 +10,4 @@ public class HighStudent extends Student {
     public void setClassNumber(int classNumber) {
         this.classNumber = classNumber;
     }
-
 }
