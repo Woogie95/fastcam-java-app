@@ -1,11 +1,4 @@
-package fastcampus.algorithmlectuer.ex_jdbc;
-
-import org.h2.Driver;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+package fastcampus.ex_jdbc;
 
 public class InsertTest {
     public static void main(String[] args) {

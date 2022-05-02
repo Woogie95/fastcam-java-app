@@ -1,13 +1,10 @@
-package fastcampus.algorithmlectuer.ex_jdbc;
-
-import org.h2.Driver;
+package fastcampus.ex_jdbc;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class UpdateTest {
+public class DeleteTest {
     public static void main(String[] args) {
 
         Connection connection = null;
@@ -16,13 +13,11 @@ public class UpdateTest {
         try {
            connection = JDBCUtil.getConnection();
             // 3단계 : 스테이트먼트 (고속버스) 생성
-            String sql = "update student1 set score=?, major=? where no=?";
+            String sql = "delete student1 where no=?";
             statement = connection.prepareStatement(sql);
 
             // SQL 파라미터 (?) 에 값 설정
-            statement.setInt(1, 30);
-            statement.setString(2, "사회복지학");
-            statement.setString(3, "22-000001");
+            statement.setString(1, "22-000009");
 
             // 4단계 : SQL 전송
             int count = statement.executeUpdate();

@@ -1,4 +1,4 @@
-package fastcampus.algorithmlectuer.ex_jdbc;
+package fastcampus.ex_jdbc;
 
 import java.sql.*;
 
